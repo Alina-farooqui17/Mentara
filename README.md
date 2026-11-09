@@ -69,49 +69,6 @@ Mentara/
 └── README.md
 ```
 
-## 🚀 Getting Started
-
-**1. Clone the repository**
-
-```bash
-git clone https://github.com/Alina-farooqui17/Mentara.git
-cd Mentara
-```
-
-**2. Set up the backend**
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-**3. Configure environment variables**
-
-Create a `.env` file in the root directory:
-
-```env
-GROQ_API_KEY=your_groq_api_key
-DATABASE_URL=your_supabase_database_url
-```
-
-**4. Run the backend**
-
-```bash
-uvicorn app.main:app --reload
-```
-
-**5. Run the frontend**
-
-Open another terminal:
-
-```bash
-cd mentara-react-frontend
-npm install
-npm run dev
-```
-
-Open `http://localhost:5173` in your browser.
 
 ## 🔮 Future Enhancements
 
