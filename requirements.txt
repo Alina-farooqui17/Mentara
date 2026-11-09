@@ -1,0 +1,12 @@
+
+fastapi
+uvicorn[standard]
+python-multipart
+pypdf
+python-dotenv
+google-genai
+groq
+chromadb
+sentence-transformers
+sqlalchemy
+pg8000

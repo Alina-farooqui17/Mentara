@@ -1,0 +1,55 @@
+
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables and API secrets
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local database and vector storage
+data/uploads/
+data/vector_db/
+data_backup/
+chroma/
+*.db
+*.sqlite
+*.sqlite3
+
+# Old HTML, CSS and JavaScript frontend
+frontend/
+
+# React dependencies and generated build files
+**/node_modules/
+**/dist/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary and log files
+*.log
+*.tmp
+*.bak
+
+# Testing and development files
+.pytest_cache/
+.mypy_cache/
+# Local testing and migration scripts
+check_pdf.py
+create_tables.py
+migrate_vectors.py
+test_db.py
